@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roller Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Dice-Roller <span>🎲</span></h1>
+      
+      <div class="input-class">
+        <label>No of Dice :</label>
+      <input type="number" id="numOfDice" value="1" min="1" max="6" />
+      <button onclick="rollDice()">Spin</button>
+      </div>
+      <div id="diceImages"></div>
+      <footer>
+        <div class="foot-div">
+          <p class="foot">
+            Copyright © 2024 by Douluri Venkatesh, Inc. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
